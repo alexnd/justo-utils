@@ -1,0 +1,23 @@
+{
+  "name": "justo",
+  "version": "1.0.0",
+  "description": "Useful tools for developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexnd/Justo.git"
+  },
+  "author": "Alexander Melanchenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexnd/Justo/issues"
+  },
+  "homepage": "https://github.com/alexnd/Justo#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "ftp": "^0.3.10"
+  }
+}
