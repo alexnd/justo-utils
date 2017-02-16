@@ -1,3 +1,9 @@
+/*
+CMD uploader to remote sites
+control established over editing vars ;)
+to run: nodejs sync-ftp.js
+*/
+
 var batch = [
 'readme.txt',
 {'index.html' : 'www/index.html'}
