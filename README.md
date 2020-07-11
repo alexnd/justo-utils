@@ -14,19 +14,31 @@ Upload set of files to your remote host via ftp
 
 To set up job just edit sync-ftp.js
 
-*Key vars*
+**Key vars**
 
-**path_src** - source directory from where looking files
+`path_src` - source directory from where looking files
 
-**path_dst** - remote path to put files
+`path_dst` - remote path to put files
 
-**batch** - list of files to upload, use { 'source' : 'destination' } if locations differs
+`batch` - list of files to upload, use { 'source' : 'destination' } if locations differs
 
-**ftp_cfg** - ftp connection params ( host, user, password )
+`ftp_cfg` - ftp connection params ( host, user, password )
 
-*Running*
+**Running**
 
 To start upload use command: ```node sync-ftp.js```
+
+## sync-sftp.js
+
+Upload set of files to your remote host via sftp
+
+`batch`- set of files in form ```{from : to}```
+
+`sourcePath` - local dir
+
+`remotePath` - host dir
+
+`cfg` - sftp connection config
 
 ## collect-assets ##
 
